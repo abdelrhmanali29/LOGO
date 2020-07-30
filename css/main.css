@@ -2,7 +2,7 @@
 
 body {
   width: 100%;
-  background-color: #ff660085;
+  background-color: #837c7885;
 }
 
 .container {
@@ -232,11 +232,11 @@ nav ul li i {
 /**Start About Us**/
 
 .about-us {
-  width: 1850;
+  width: 1250px;
   height: 420px;
   background-color: rgb(243, 243, 243);
   z-index: 10;
-  margin: 0 100px;
+  margin: 0 auto;
   position: relative;
   top: -70px;
   display: flex;
@@ -279,6 +279,10 @@ nav ul li i {
   color: lightgray;
   margin-right: 10px;
   font-size: 25px;
+}
+
+video{
+  margin-top: 16px;
 }
 
 .about {
