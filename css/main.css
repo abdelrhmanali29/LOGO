@@ -10,6 +10,11 @@ body {
   margin: 0 auto;
 }
 
+.logom{
+  position: absolute;
+  visibility: hidden;
+}
+
 /**Start Header**/
 
 .header {
@@ -82,7 +87,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  color: black;
+  color: rgb(29, 9, 9);
 }
 
 .dropbtn {
@@ -249,8 +254,11 @@ nav ul li i {
 
 .about-us ul {
   float: left;
-  width: 400px;
   margin-top: 30px;
+}
+
+.choices{
+  width: 400px;
 }
 
 .choices li {
@@ -311,6 +319,7 @@ video{
 .about ul {
   height: 120px;
   font-size: 15px;
+  width: 400px;
 }
 
 .about ul li {
@@ -343,3 +352,4 @@ video{
 /**End About Us**/
 
 /**End Body **/
+
